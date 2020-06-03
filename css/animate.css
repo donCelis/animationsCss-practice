@@ -1,0 +1,40 @@
+@keyframes animateAbsolute {
+  0% {
+    transform: translate(0, -150%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0, -20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, -50%);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  from {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes downMove {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes upMove {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
