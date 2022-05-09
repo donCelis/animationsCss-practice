@@ -72,7 +72,7 @@ body {
   left: -60px;
   transform: translate(0,-150%);
   opacity: 0;
-  animation: animateAbsolute 1s ease-in-out 1.5s forwards;
+  animation: animateAbsolute 1s ease-in-out forwards paused;
 }
 header,
 section {
